@@ -3,6 +3,10 @@
 #include <time.h>
 #include <math.h>
 
+#define MAP_SIZE 3
+#define ROUND_LIMIT 5
+#define NUM_OF_BLOCK 9
+
 void map(char a[3][3]);
 void setup(char a[3][3], short check[]);
 void player(char a[3][3], short check[], short *x1, short *x2);
@@ -56,7 +60,7 @@ int main(){
 void setup(char a[3][3], short check[]){
 	for(int i = 0; i < 3; i++){
 		for(int j = 0; j < 3; j++){
-			a[i][j] = '\0 ';
+			a[i][j] = ' ';
 		}
 	}
 	for(int i = 0; i < 9; i++){
