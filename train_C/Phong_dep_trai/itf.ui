@@ -100,7 +100,7 @@
             <property name="height-request">50</property>
             <property name="can-focus">False</property>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="book ">
                 <property name="width-request">200</property>
                 <property name="can-focus">True</property>
                 <property name="receives-default">True</property>
@@ -115,7 +115,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="authorr">
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
@@ -131,7 +131,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="borro">
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
@@ -147,7 +147,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="retur">
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
@@ -163,7 +163,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="stati">
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
@@ -179,7 +179,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkButton">
+              <object class="GtkButton" id="repor">
                 <property name="width-request">200</property>
                 <property name="visible">True</property>
                 <property name="can-focus">True</property>
